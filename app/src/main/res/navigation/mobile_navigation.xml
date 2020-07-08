@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/topCitiesWeatherFragment">
+    <fragment
+        android:id="@+id/topCitiesWeatherFragment"
+        android:name="com.naman.weather.ui.TopCities.TopCitiesWeatherFragment"
+        android:label="top_cities_weather_fragment"
+        tools:layout="@layout/top_cities_weather_fragment" />
+    <fragment
+        android:id="@+id/currentCityWeatherFragment"
+        android:name="com.naman.weather.ui.currentCity.CurrentCityWeatherFragment"
+        android:label="curent_city_weather_fragment"
+        tools:layout="@layout/curent_city_weather_fragment" />
+    <fragment
+        android:id="@+id/exitFragment"
+        android:name="com.naman.weather.ui.ExitFragment"
+        android:label="ExitFragment" />
+</navigation>
